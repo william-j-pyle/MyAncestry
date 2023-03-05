@@ -1,0 +1,105 @@
+    '    Public Event DataChanged(context As String)
+
+
+
+    'Private m_Properties As Hashtable
+    'Private m_Filename As String
+
+    'Public Sub New()
+    '    m_Properties = New Hashtable()
+    '    m_Filename = ""
+    'End Sub
+
+    'Public Sub New(ByVal filename As String)
+    '    m_Properties = New Hashtable
+    '    Load(filename)
+    'End Sub
+
+    'Public Sub Save()
+    '    If m_Filename = "" Then Exit Sub
+    '    Save(m_Filename)
+    'End Sub
+
+    'Public Sub Save(ByVal filename As String)
+    '    Dim sw As StreamWriter
+    '    If File.Exists(filename) Then
+    '        File.Delete(filename)
+    '    End If
+    '    sw = New StreamWriter(filename)
+    '    Dim m_Keys As ArrayList = New ArrayList
+    '    For Each key As String In m_Properties.Keys
+    '        m_Keys.Add(key)
+    '    Next
+    '    m_Keys.Sort()
+    '    For Each key As String In m_Keys
+    '        sw.WriteLine(key & "=" & m_Properties.Item(key))
+    '    Next
+    '    sw.Flush()
+    '    sw.Close()
+    'End Sub
+
+    'Public Sub Load(ByVal filename As String)
+    '    Dim sr As StreamReader
+    '    Dim line As String
+    '    Dim key As String
+    '    Dim value As String
+
+    '    m_Filename = filename
+    '    If File.Exists(filename) Then
+    '        sr = New StreamReader(filename)
+
+    '        Do While sr.Peek <> -1
+    '            line = sr.ReadLine
+    '            If line = Nothing OrElse line.Length = 0 OrElse line.StartsWith("#") Then
+    '                Continue Do
+    '            End If
+
+    '            key = line.Split("=")(0)
+    '            value = line.Split("=")(1)
+
+    '            PutProperty(key, value)
+
+    '        Loop
+
+    '        sr.Close()
+    '    End If
+
+    'End Sub
+
+    'Public Sub Clear()
+    '    m_Properties.Clear()
+    'End Sub
+
+    'Public Sub RemoveProperty(ByVal key As String)
+    '    If m_Properties.ContainsKey(key) Then
+    '        m_Properties.Remove(key)
+    '    End If
+    'End Sub
+
+    'Public Sub PutProperty(ByVal key As String, ByVal value As String)
+    '    RemoveProperty(key)
+    '    m_Properties.Add(key, value)
+    'End Sub
+
+    'Public Function GetProperty(ByVal key As String)
+    '    If m_Properties.ContainsKey(key) Then
+    '        Return m_Properties.Item(key)
+    '    Else
+    '        Return Nothing
+    '    End If
+    'End Function
+
+    'Public Function GetProperty(ByVal key As String, ByVal defValue As String) As String
+    '    If Not m_Properties.ContainsKey(key) Then
+    '        PutProperty(key, defValue)
+    '    End If
+    '    Return GetProperty(key)
+    'End Function
+
+    'Public Function CnvBoolTrueYorN(value As Boolean) As String
+    '    If value Then Return "Y" Else Return "N"
+    'End Function
+
+    'Public Function CnvYtoBoolTrue(value As String) As Boolean
+    '    Return value.ToLower.Equals("y")
+    'End Function

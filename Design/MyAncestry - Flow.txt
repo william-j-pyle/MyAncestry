@@ -1,0 +1,51 @@
+Install App
+	./somedir/MyAncestry/ 					Base Install Directory Created
+	./somedir/MyAncestry/data/ 				Core data files are installed
+	./somedir/MyAncestry/webroot/			Webroot structure and files installed
+	./somedir/MyAncestry/MyAncestry.exe		Executable installed
+	./somedir/MyAncestry/MyAncestryApp.json	AppData Config installed
+Launch App
+	App looks in userdata/MyAncestry/MyAncestryUser.json, if found then Load UserData
+	else looks in docs/MyAncestryUser.json, if found then Load UserData
+	else Open New User Screen
+Open New User Screen
+	Not sure what we need to know here yet
+Load UserData
+	Is Active Project File Set, If yes then Load Project
+	else Open New Project Screen
+Open New Project Screen
+Load Project
+	If Project contains FamilySearch Account, launch hint service
+	If Project contains Ancestry Account, launch hint service, launch message service, launch dna match service
+Open View Project Summary
+
+
+	
+	
+
+AppData - json
+	Theme
+	Views
+	Templates
+	Lowlevel Config
+	Paths
+	
+UserData - json (User is being defined as OS user in this use case)
+	Layouts
+	Highlevel Config
+	Templates
+	Active Project File
+	Previous Projects
+		1-5
+	
+ProjectData - sqlite
+	Paths to normal input/output
+	task data
+	gedcom data
+	user updates data
+	notes data
+	accounts
+		ancestry
+		wikisearch
+		familysearch
+		etc.

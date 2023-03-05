@@ -1,0 +1,45 @@
+
+Imports Newtonsoft.Json
+Imports System.IO
+Imports System.Data.SQLite
+	
+        Dim ConnString As String = "Data Source=D:\FamilyAncestry\apps\MyAncestry\FileSystem\data\testing.db; Version=3;"
+
+        Dim SQLiteConn As New SQLiteConnection(ConnString)
+        Dim SQLitecmd As New SQLiteCommand
+        Dim SQLiteReader As SQLiteDataReader
+
+        Dim sql As String = "CREATE TABLE [NameTable] (
+  [NameID] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL
+, [OwnerID] bigint NULL
+, [Surname] text NULL
+, [Given] text NULL
+, [Prefix] text NULL
+, [Suffix] text NULL
+, [Nickname] text NULL
+);"
+
+
+        'SQLiteConn.Open()
+
+        'SQLitecmd.Connection = SQLiteConn
+        'SQLitecmd.CommandText = sql
+        'SQLiteReader = SQLitecmd.ExecuteReader()
+
+        ''While SQLiteReader.Read()
+        ''Debug.Print("{1} {0}", SQLiteReader("Surname").ToString, SQLiteReader("Given").ToString)
+        ''End While
+
+        'SQLiteReader.Close()
+        'SQLiteConn.Close()
+
+
+
+
+
+
+
+
+
+	
+	

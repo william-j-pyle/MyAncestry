@@ -1,0 +1,125 @@
+Class AppData
+	Config As cfgConfig
+		JSControlFile As String
+		VirtualHostName As String
+		PathWebRoot As String
+		PathIcon As String
+		Theme As Integer
+		PathGedCom As String
+		PathMediaMovies As String
+		PathMediaStories As String
+		PathMediaImages As String
+		PathMediaAudio As String
+		PathMedia As String
+		PathData As String
+		PathConfig As String	
+	Views As List(Of cfgView)
+		Key As String
+		TL As cfgViewDock
+			Type As String
+			Visible As Boolean
+		TM As cfgViewDock
+			Type As String
+			Visible As Boolean
+		TR As cfgViewDock
+			Type As String
+			Visible As Boolean
+		BL As cfgViewDock
+			Type As String
+			Visible As Boolean
+		BM As cfgViewDock
+			Type As String
+			Visible As Boolean
+		BR As cfgViewDock
+			Type As String
+			Visible As Boolean
+	ViewItems As List(Of cfgViewItem)
+		Key As String
+		ViewKey As String
+		GroupKey As String
+		Type As String
+		TabCaption As String
+		BoxHeader As String
+		BoxLocation As String
+		Url As String
+		ShowClose As Boolean
+		ShowToolbar As Boolean
+		ShowSearch As Boolean
+		ShowStatus As Boolean
+		Flags As List(Of String)	
+	MenuBars As List(Of cfgBarItem)
+		Caption As String
+		GroupKey As String
+		Key As String
+		ParentKey As String
+		IconKey As String
+		Type As String
+		Flags As List(Of String)
+	ToolBars As List(Of cfgBarItem)
+		Caption As String
+		GroupKey As String
+		Key As String
+		ParentKey As String
+		IconKey As String
+		Type As String
+		Flags As List(Of String)
+	StatusBar As List(Of cfgBarItem)
+		Caption As String
+		GroupKey As String
+		Key As String
+		ParentKey As String
+		IconKey As String
+		Type As String
+		Flags As List(Of String)
+	ThemeColors As List(Of cfgThemeColors)
+		ThemeID As String
+		Colors As List(Of cfgThemeColor)
+			ColorID As String
+			R As Integer
+			G As Integer
+			B As Integer
+	ColorMap As List(Of cfgColorMap)
+		ItemType As String
+		ColorType As String
+		ColorState As String
+		ColorID As String	
+	Icons As List(Of cfgIcon)	
+		IconKey As String
+		FileName As String
+		ReSize As Integer
+		ReColorID As String
+	Sub InitTheme()
+	Function Color(itemType As ThemeItemType, colorType As ThemeColorType, state As ThemeColorItemState) As Color
+	Function ForeColor(Optional itemType As ThemeItemType = ThemeItemType.APP, Optional state As ThemeColorItemState = ThemeColorItemState.ACTIVE) As Color
+	Function BackColor(Optional itemType As ThemeItemType = ThemeItemType.APP, Optional state As ThemeColorItemState = ThemeColorItemState.ACTIVE) As Color
+	Function HighlightColor(Optional itemType As ThemeItemType = ThemeItemType.APP, Optional state As ThemeColorItemState = ThemeColorItemState.ACTIVE) As Color
+	Function BorderColor(Optional itemType As ThemeItemType = ThemeItemType.APP, Optional state As ThemeColorItemState = ThemeColorItemState.ACTIVE) As Color
+	Function Icon(iconKey As String, Optional reSize As Size = Nothing, Optional reColor As Color = Nothing) As Bitmap		
+	Function Font(Optional itemType As ThemeItemType = ThemeItemType.APP, Optional bold As Boolean = True) As Font
+	
+	
+	
+Enumerations
+	ThemeItemType
+		APP
+		MENUBAR
+		TOOLBAR
+		STATUSBAR
+		DOCKBOX
+		DOCKBOXTAB
+		TABBOX
+		TABBOXTAB
+		SCROLLBAR
+	ThemeColorType
+		BACKGROUND
+		FOREGROUND
+		ACCENT
+		BORDER
+		HIGHLIGHT
+	ThemeColorItemState
+		ACTIVE
+		INACTIVE
+		HOVER
+		DISABLED
+		SELECTED
+		UNSELECTED

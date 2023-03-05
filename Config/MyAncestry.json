@@ -1,0 +1,1618 @@
+{ 
+  "Config": { 
+    "JSControlFile": "D:\\FamilyAncestry\\apps\\MyAncestry\\Project\\Assets\\js\\jWebViewInit.js"
+    , "VirtualHostName": "MyAncestry"
+    , "PathWebRoot": "D:\\FamilyAncestry\\apps\\MyAncestry\\Project\\Assets\\"
+    , "PathIcon": "D:\\FamilyAncestry\\apps\\MyAncestry\\Project\\Assets\\img\\"
+    , "Theme": "1"
+    , "PathGedCom": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\data\\tree.ged"
+    , "PathMediaMovies": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\Movies\\"
+    , "PathMediaStories": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\Stories\\"
+    , "PathMediaImages": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\Images\\"
+    , "PathMediaAudio": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\Audio\\"
+    , "PathMedia": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\"
+    , "PathData": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\data\\"
+    , "PathConfig": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\config\\"
+  }
+  , "Views": [ 
+    { 
+      "Key": "HINTS"
+      , "GroupKey": "HINTS"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+    , { 
+      "Key": "MEDIA"
+      , "GroupKey": "MEDIA"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+    , { 
+      "Key": "MESSAGES"
+      , "GroupKey": "MESSAGES"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+    , { 
+      "Key": "PEOPLE"
+      , "GroupKey": "PEOPLE"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+    , { 
+      "Key": "PLACES"
+      , "GroupKey": "PLACES"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+    , { 
+      "Key": "PUBLISH"
+      , "GroupKey": "PUBLISH"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+    , { 
+      "Key": "RESEARCH"
+      , "GroupKey": "RESEARCH"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+    , { 
+      "Key": "SOURCES"
+      , "GroupKey": "SOURCES"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+    , { 
+      "Key": "TASKS"
+      , "GroupKey": "TASKS"
+      , "TL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "TM": { 
+        "Type": "Tab"
+        , "Visible": "True"
+      }
+      , "TR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BL": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BM": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+      , "BR": { 
+        "Type": "Dock"
+        , "Visible": "True"
+      }
+    }
+  ]
+  , "ViewItems": [ 
+    { 
+      "Key": "PERSON"
+      , "DisplayOrder": 1
+      , "ViewKey": "HINTS"
+      , "GroupKey": "HINTS"
+      , "Type": "Web"
+      , "TabCaption": "PERSON"
+      , "BoxHeader": "PERSON"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/person.html"
+      , "DataSet": "Person"
+      , "Flags": [ 
+        "SHOWCLOSE"
+        , "SHOWSEARCH"
+      ]
+    }
+    , { 
+      "Key": "HINTLIST"
+      , "DisplayOrder": 1
+      , "ViewKey": "HINTS"
+      , "GroupKey": "HINTS"
+      , "Type": "Web"
+      , "TabCaption": "HINTLIST"
+      , "BoxHeader": "HINTLIST"
+      , "BoxLocation": "BL"
+      , "Url": "http://MyAncestry/hintlist.html"
+      , "DataSet": "Hints"
+      , "Flags": [ 
+        "SHOWCLOSE"
+        , "SHOWSEARCH"
+      ]
+    }
+    , { 
+      "Key": "HINT"
+      , "DisplayOrder": 1
+      , "ViewKey": "HINTS"
+      , "GroupKey": "HINTS"
+      , "Type": "Web"
+      , "TabCaption": "HINT"
+      , "BoxHeader": "HINT"
+      , "BoxLocation": "TM"
+      , "Url": "http://MyAncestry/hint.html"
+      , "DataSet": "HintSelected"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "PERSONLIST"
+      , "DisplayOrder": 1
+      , "ViewKey": "MEDIA"
+      , "GroupKey": "MEDIA"
+      , "Type": "Web"
+      , "TabCaption": "PERSONLIST"
+      , "BoxHeader": "PERSONLIST"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/personlist.html"
+      , "DataSet": "MediaOwners"
+      , "Flags": [ 
+        "SHOWCLOSE"
+        , "SHOWSEARCH"
+      ]
+    }
+    , { 
+      "Key": "MEDIALIST"
+      , "DisplayOrder": 1
+      , "ViewKey": "MEDIA"
+      , "GroupKey": "MEDIA"
+      , "Type": "Web"
+      , "TabCaption": "MEDIALIST"
+      , "BoxHeader": "MEDIALIST"
+      , "BoxLocation": "BL"
+      , "Url": "http://MyAncestry/medialist.html"
+      , "DataSet": "MediaList"
+      , "Flags": [ 
+        "SHOWCLOSE"
+        , "SHOWSEARCH"
+      ]
+    }
+    , { 
+      "Key": "MEDIAVIEW"
+      , "DisplayOrder": 1
+      , "ViewKey": "MEDIA"
+      , "GroupKey": "MEDIA"
+      , "Type": "Web"
+      , "TabCaption": "MEDIAVIEW"
+      , "BoxHeader": "MEDIAVIEW"
+      , "BoxLocation": "TM"
+      , "Url": "http://MyAncestry/mediaview.html"
+      , "DataSet": "MediaSelected"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "MEDIAINFO"
+      , "DisplayOrder": 1
+      , "ViewKey": "MEDIA"
+      , "GroupKey": "MEDIA"
+      , "Type": "Web"
+      , "TabCaption": "MEDIAINFO"
+      , "BoxHeader": "MEDIAINFO"
+      , "BoxLocation": "TR"
+      , "Url": "http://MyAncestry/mediainfo.html"
+      , "DataSet": "MediaSelected"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "CONTACTS"
+      , "DisplayOrder": 1
+      , "ViewKey": "MESSAGES"
+      , "GroupKey": "MESSAGES"
+      , "Type": "Web"
+      , "TabCaption": "CONTACTS"
+      , "BoxHeader": "CONTACTS"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/contacts.html"
+      , "DataSet": "Contacts"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "CONTACTMESSAGES"
+      , "DisplayOrder": 1
+      , "ViewKey": "MESSAGES"
+      , "GroupKey": "MESSAGES"
+      , "Type": "Web"
+      , "TabCaption": "CONTACTMESSAGES"
+      , "BoxHeader": "CONTACTMESSAGES"
+      , "BoxLocation": "TM"
+      , "Url": "http://MyAncestry/contactmessages.html"
+      , "DataSet": "ContactMessages"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "PERSONLIST"
+      , "DisplayOrder": 1
+      , "ViewKey": "PEOPLE"
+      , "GroupKey": "PEOPLE"
+      , "Type": "Web"
+      , "TabCaption": "PERSONLIST"
+      , "BoxHeader": "PERSONLIST"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/personlist.html"
+      , "DataSet": "PersonSelected"
+      , "Flags": [ 
+        "SHOWCLOSE"
+        , "SHOWSEARCH"
+      ]
+    }
+    , { 
+      "Key": "PERSON"
+      , "DisplayOrder": 1
+      , "ViewKey": "PEOPLE"
+      , "GroupKey": "PEOPLE"
+      , "Type": "Web"
+      , "TabCaption": "PERSON"
+      , "BoxHeader": "PERSON"
+      , "BoxLocation": "BL"
+      , "Url": "http://MyAncestry/person.html"
+      , "DataSet": "Persons"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "PERSONTREE"
+      , "DisplayOrder": 1
+      , "ViewKey": "PEOPLE"
+      , "GroupKey": "PEOPLE"
+      , "Type": "Web"
+      , "TabCaption": "PERSONTREE"
+      , "BoxHeader": "PERSONTREE"
+      , "BoxLocation": "TM"
+      , "Url": "http://MyAncestry/persontree.html"
+      , "DataSet": "PersonTree"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "PLACELIST"
+      , "DisplayOrder": 1
+      , "ViewKey": "PLACES"
+      , "GroupKey": "PLACES"
+      , "Type": "Web"
+      , "TabCaption": "PLACELIST"
+      , "BoxHeader": "PLACELIST"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/placelist.html"
+      , "DataSet": null
+      , "Flags": [ 
+        "SHOWCLOSE"
+        , "SHOWSEARCH"
+      ]
+    }
+    , { 
+      "Key": "PLACE"
+      , "DisplayOrder": 1
+      , "ViewKey": "PLACES"
+      , "GroupKey": "PLACES"
+      , "Type": "Web"
+      , "TabCaption": "PLACE"
+      , "BoxHeader": "PLACE"
+      , "BoxLocation": "BL"
+      , "Url": "http://MyAncestry/place.html"
+      , "DataSet": null
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "PLACEMAP"
+      , "DisplayOrder": 1
+      , "ViewKey": "PLACES"
+      , "GroupKey": "PLACES"
+      , "Type": "Web"
+      , "TabCaption": "PLACEMAP"
+      , "BoxHeader": "PLACEMAP"
+      , "BoxLocation": "TM"
+      , "Url": "http://MyAncestry/placemap.html"
+      , "DataSet": null
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "PERSON"
+      , "DisplayOrder": 1
+      , "ViewKey": "RESEARCH"
+      , "GroupKey": "RESEARCH"
+      , "Type": "Web"
+      , "TabCaption": "PERSON"
+      , "BoxHeader": "PERSON"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/person.html"
+      , "DataSet": "PersonSelected"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "SOURCELIST"
+      , "DisplayOrder": 1
+      , "ViewKey": "SOURCES"
+      , "GroupKey": "SOURCES"
+      , "Type": "Web"
+      , "TabCaption": "SOURCELIST"
+      , "BoxHeader": "SOURCELIST"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/sourcelist.html"
+      , "DataSet": "Sources"
+      , "Flags": [ 
+        "SHOWCLOSE"
+        , "SHOWSEARCH"
+      ]
+    }
+    , { 
+      "Key": "SOURCECITATIONS"
+      , "DisplayOrder": 1
+      , "ViewKey": "SOURCES"
+      , "GroupKey": "SOURCES"
+      , "Type": "Web"
+      , "TabCaption": "SOURCECITATIONS"
+      , "BoxHeader": "SOURCECITATIONS"
+      , "BoxLocation": "BL"
+      , "Url": "http://MyAncestry/sourcecitations.html"
+      , "DataSet": "Citations"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "SOURCE"
+      , "DisplayOrder": 1
+      , "ViewKey": "SOURCES"
+      , "GroupKey": "SOURCES"
+      , "Type": "Web"
+      , "TabCaption": "SOURCE"
+      , "BoxHeader": "SOURCE"
+      , "BoxLocation": "TM"
+      , "Url": "http://MyAncestry/source.html"
+      , "DataSet": "SourceSelected"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "TASKLIST"
+      , "DisplayOrder": 1
+      , "ViewKey": "TASKS"
+      , "GroupKey": "TASKS"
+      , "Type": "Web"
+      , "TabCaption": "TASKLIST"
+      , "BoxHeader": "TASKLIST"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/tasklist.html"
+      , "DataSet": "Tasks"
+      , "Flags": [ 
+        "SHOWCLOSE"
+        , "SHOWSEARCH"
+      ]
+    }
+    , { 
+      "Key": "TASK"
+      , "DisplayOrder": 1
+      , "ViewKey": "TASKS"
+      , "GroupKey": "TASKS"
+      , "Type": "Web"
+      , "TabCaption": "TASK"
+      , "BoxHeader": "TASK"
+      , "BoxLocation": "TM"
+      , "Url": "http://MyAncestry/task.html"
+      , "DataSet": "TaskSelected"
+      , "Flags": [ 
+        "SHOWCLOSE"
+      ]
+    }
+    , { 
+      "Key": "TASKLIST"
+      , "DisplayOrder": 1
+      , "ViewKey": "DASHBOARD"
+      , "GroupKey": "DASHBOARD"
+      , "Type": "Web"
+      , "TabCaption": "-"
+      , "BoxHeader": "-"
+      , "BoxLocation": "TL"
+      , "Url": "http://MyAncestry/summary.html"
+      , "DataSet": "Summary"
+      , "Flags": [ 
+        "NOHEADER"
+      ]
+    }
+    , { 
+      "Key": "TASK"
+      , "DisplayOrder": 1
+      , "ViewKey": "DASHBOARD"
+      , "GroupKey": "DASHBOARD"
+      , "Type": "Web"
+      , "TabCaption": "-"
+      , "BoxHeader": "-"
+      , "BoxLocation": "TM"
+      , "Url": "http://MyAncestry/dashboard.html"
+      , "DataSet": "Dashboard"
+      , "Flags": [ 
+        "NOHEADER"
+      ]
+    }
+  ]
+  , "MenuBars": [ 
+    { 
+      "Caption": "&Project"
+      , "Key": "PROJECT"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "&New"
+      , "Key": "PROJECTNEW"
+      , "ParentKey": "PROJECT"
+      , "IconKey": "FILEOPEN"
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "&Open..."
+      , "Key": "PROJECTOPEN"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "PROJECTSEP_1"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Backup"
+      , "Key": "PROJECTBACKUP"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "PROJECTSEP_2"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Import"
+      , "Key": "PROJECTIMPORT"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Export"
+      , "Key": "PROJECTEXPORT"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Compare"
+      , "Key": "PROJECTCOMPARE"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "PROJECTSEP_3"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Print..."
+      , "Key": "PROJECTPRINT"
+      , "ParentKey": "PROJECT"
+      , "IconKey": "PRINT"
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Share..."
+      , "Key": "PROJECTSHARE"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Publish..."
+      , "Key": "PROJECTPUBLISH"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "PROJECTSEP_4"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Properties"
+      , "Key": "PROJECTPROPERTIES"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "PROJECTSEP_5"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Close"
+      , "Key": "PROJECTCLOSE"
+      , "ParentKey": "PROJECT"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "People"
+      , "Key": "PEOPLE"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "View"
+      , "Key": "PEOPLEVIEW"
+      , "ParentKey": "PEOPLE"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "New"
+      , "Key": "PEOPLENEW"
+      , "ParentKey": "PEOPLE"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "PEOPLESEP_1"
+      , "ParentKey": "PEOPLE"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Preferences"
+      , "Key": "PEOPLEPREFERENCES"
+      , "ParentKey": "PEOPLE"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Places"
+      , "Key": "PLACES"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "View"
+      , "Key": "PLACESVIEW"
+      , "ParentKey": "PLACES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "New"
+      , "Key": "PLACESNEW"
+      , "ParentKey": "PLACES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "PLACESSEP_1"
+      , "ParentKey": "PLACES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Preferences"
+      , "Key": "PLACESPREFERENCES"
+      , "ParentKey": "PLACES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Sources"
+      , "Key": "SOURCES"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "View"
+      , "Key": "SOURCESVIEW"
+      , "ParentKey": "SOURCES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "New"
+      , "Key": "SOURCESNEW"
+      , "ParentKey": "SOURCES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "SOURCESSEP_1"
+      , "ParentKey": "SOURCES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Preferences"
+      , "Key": "SOURCESPREFERENCES"
+      , "ParentKey": "SOURCES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Media"
+      , "Key": "MEDIA"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "View"
+      , "Key": "MEDIAVIEW"
+      , "ParentKey": "MEDIA"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "MEDIASEP_1"
+      , "ParentKey": "MEDIA"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Preferences"
+      , "Key": "MEDIAPREFERENCES"
+      , "ParentKey": "MEDIA"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Tasks"
+      , "Key": "TASKS"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "View"
+      , "Key": "TASKSVIEW"
+      , "ParentKey": "TASKS"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "TASKSSEP_1"
+      , "ParentKey": "TASKS"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Include Ancestry"
+      , "Key": "TASKSINCLUDEANCESTRY"
+      , "ParentKey": "TASKS"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "IncludeFamilySearch"
+      , "Key": "TASKSINCLUDEFAMILYSEARCH"
+      , "ParentKey": "TASKS"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "TASKSSEP_2"
+      , "ParentKey": "TASKS"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Preferences"
+      , "Key": "TASKSPREFERENCES"
+      , "ParentKey": "TASKS"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Messages"
+      , "Key": "MESSAGES"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "View"
+      , "Key": "MESSAGESVIEW"
+      , "ParentKey": "MESSAGES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "New"
+      , "Key": "MESSAGESNEW"
+      , "ParentKey": "MESSAGES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "MESSAGESSEP_1"
+      , "ParentKey": "MESSAGES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Preferences"
+      , "Key": "MESSAGESPREFERENCES"
+      , "ParentKey": "MESSAGES"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Tools"
+      , "Key": "TOOLS"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "Help"
+      , "Key": "HELP"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "About"
+      , "Key": "HELPABOUT"
+      , "ParentKey": "HELP"
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+  ]
+  , "ToolBars": [ 
+    { 
+      "Caption": "Ancestry.com"
+      , "Key": "ANCESTRYCOM"
+      , "ParentKey": null
+      , "IconKey": "WEBANCESTRYCOM"
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "-"
+      , "Key": "SEP_1"
+      , "ParentKey": null
+      , "IconKey": null
+      , "GroupKey": null
+      , "Type": "Seperator"
+      , "Flags": [ 
+      ]
+    }
+    , { 
+      "Caption": "FamilySearch.com"
+      , "Key": "FAMILYSEARCHCOM"
+      , "ParentKey": null
+      , "IconKey": "WEBFAMILYSEARCHCOM"
+      , "GroupKey": null
+      , "Type": "Button"
+      , "Flags": [ 
+      ]
+    }
+  ]
+  , "StatusBar": [ 
+    { 
+      "Caption": "Ancestry.com"
+      , "Key": "ANCESTRYCOM"
+      , "ParentKey": null
+      , "IconKey": "WEBANCESTRYCOM"
+      , "GroupKey": null
+      , "Type": "Label"
+      , "Flags": [ 
+      ]
+    }
+  ]
+  , "ThemeColors": [ 
+    { 
+      "ThemeID": 1
+      , "Colors": [ 
+        { 
+          "ColorID": "DARK.98"
+          , "R": 31
+          , "G": 31
+          , "B": 31
+        }
+        , { 
+          "ColorID": "DARK.92"
+          , "R": 46
+          , "G": 46
+          , "B": 46
+        }
+        , { 
+          "ColorID": "DARK.86"
+          , "R": 61
+          , "G": 61
+          , "B": 61
+        }
+        , { 
+          "ColorID": "DARK.84"
+          , "R": 66
+          , "G": 66
+          , "B": 66
+        }
+        , { 
+          "ColorID": "DARK.79"
+          , "R": 78
+          , "G": 78
+          , "B": 78
+        }
+        , { 
+          "ColorID": "DARK.77"
+          , "R": 83
+          , "G": 83
+          , "B": 83
+        }
+        , { 
+          "ColorID": "DARK.66"
+          , "R": 112
+          , "G": 112
+          , "B": 112
+        }
+        , { 
+          "ColorID": "HIGHLIGHT.2"
+          , "R": 113
+          , "G": 96
+          , "B": 223
+        }
+        , { 
+          "ColorID": "HIGHLIGHT.1"
+          , "R": 154
+          , "G": 205
+          , "B": 50
+        }
+        , { 
+          "ColorID": "LIGHT.80"
+          , "R": 204
+          , "G": 204
+          , "B": 204
+        }
+        , { 
+          "ColorID": "LIGHT.84"
+          , "R": 214
+          , "G": 214
+          , "B": 214
+        }
+        , { 
+          "ColorID": "LIGHT.99"
+          , "R": 250
+          , "G": 250
+          , "B": 250
+        }
+      ]
+    }
+    , { 
+      "ThemeID": 2
+      , "Colors": [ 
+        { 
+          "ColorID": "DARK.98"
+          , "R": 81
+          , "G": 31
+          , "B": 31
+        }
+        , { 
+          "ColorID": "DARK.92"
+          , "R": 96
+          , "G": 46
+          , "B": 46
+        }
+        , { 
+          "ColorID": "DARK.86"
+          , "R": 111
+          , "G": 61
+          , "B": 61
+        }
+        , { 
+          "ColorID": "DARK.84"
+          , "R": 116
+          , "G": 66
+          , "B": 66
+        }
+        , { 
+          "ColorID": "DARK.79"
+          , "R": 128
+          , "G": 78
+          , "B": 78
+        }
+        , { 
+          "ColorID": "DARK.77"
+          , "R": 133
+          , "G": 83
+          , "B": 83
+        }
+        , { 
+          "ColorID": "DARK.66"
+          , "R": 162
+          , "G": 112
+          , "B": 112
+        }
+        , { 
+          "ColorID": "HIGHLIGHT.2"
+          , "R": 113
+          , "G": 96
+          , "B": 223
+        }
+        , { 
+          "ColorID": "HIGHLIGHT.1"
+          , "R": 154
+          , "G": 205
+          , "B": 50
+        }
+        , { 
+          "ColorID": "LIGHT.80"
+          , "R": 204
+          , "G": 204
+          , "B": 204
+        }
+        , { 
+          "ColorID": "LIGHT.84"
+          , "R": 214
+          , "G": 214
+          , "B": 214
+        }
+        , { 
+          "ColorID": "LIGHT.99"
+          , "R": 250
+          , "G": 250
+          , "B": 250
+        }
+      ]
+    }
+  ]
+  , "ColorMap": [ 
+    { 
+      "ItemType": "App"
+      , "ColorType": "Background"
+      , "ColorState": "Active"
+      , "ColorID": "DARK.98"
+    }
+    , { 
+      "ItemType": "App"
+      , "ColorType": "Background"
+      , "ColorState": "InActive"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "App"
+      , "ColorType": "Background"
+      , "ColorState": "Hover"
+      , "ColorID": "DARK.98"
+    }
+    , { 
+      "ItemType": "App"
+      , "ColorType": "Foreground"
+      , "ColorState": "Active"
+      , "ColorID": "LIGHT.84"
+    }
+    , { 
+      "ItemType": "App"
+      , "ColorType": "Foreground"
+      , "ColorState": "InActive"
+      , "ColorID": "LIGHT.84"
+    }
+    , { 
+      "ItemType": "App"
+      , "ColorType": "Highlight"
+      , "ColorState": "Active"
+      , "ColorID": "HIGHLIGHT.1"
+    }
+    , { 
+      "ItemType": "App"
+      , "ColorType": "Border"
+      , "ColorState": "Active"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "App"
+      , "ColorType": "Border"
+      , "ColorState": "InActive"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "DockBox"
+      , "ColorType": "Background"
+      , "ColorState": "Active"
+      , "ColorID": "DARK.98"
+    }
+    , { 
+      "ItemType": "DockBox"
+      , "ColorType": "Background"
+      , "ColorState": "InActive"
+      , "ColorID": "DARK.98"
+    }
+    , { 
+      "ItemType": "DockBox"
+      , "ColorType": "Foreground"
+      , "ColorState": "Active"
+      , "ColorID": "LIGHT.99"
+    }
+    , { 
+      "ItemType": "DockBox"
+      , "ColorType": "Foreground"
+      , "ColorState": "InActive"
+      , "ColorID": "LIGHT.84"
+    }
+    , { 
+      "ItemType": "DockBox"
+      , "ColorType": "Highlight"
+      , "ColorState": "Active"
+      , "ColorID": "HIGHLIGHT.1"
+    }
+    , { 
+      "ItemType": "DockBox"
+      , "ColorType": "Highlight"
+      , "ColorState": "InActive"
+      , "ColorID": "LIGHT.80"
+    }
+    , { 
+      "ItemType": "DockBox"
+      , "ColorType": "Border"
+      , "ColorState": "Active"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "DockBox"
+      , "ColorType": "Border"
+      , "ColorState": "InActive"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Background"
+      , "ColorState": "Hover"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Background"
+      , "ColorState": "Selected"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Background"
+      , "ColorState": "UnSelected"
+      , "ColorID": "DARK.92"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Foreground"
+      , "ColorState": "Hover"
+      , "ColorID": "LIGHT.99"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Foreground"
+      , "ColorState": "Selected"
+      , "ColorID": "LIGHT.99"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Foreground"
+      , "ColorState": "UnSelected"
+      , "ColorID": "LIGHT.84"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Highlight"
+      , "ColorState": "Active"
+      , "ColorID": "HIGHLIGHT.1"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Highlight"
+      , "ColorState": "InActive"
+      , "ColorID": "LIGHT.80"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Border"
+      , "ColorState": "Hover"
+      , "ColorID": "DARK.98"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Border"
+      , "ColorState": "Selected"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "DockBoxTab"
+      , "ColorType": "Border"
+      , "ColorState": "UnSelected"
+      , "ColorID": "DARK.98"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Background"
+      , "ColorState": "Active"
+      , "ColorID": "DARK.98"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Background"
+      , "ColorState": "Hover"
+      , "ColorID": "DARK.86"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Background"
+      , "ColorState": "Selected"
+      , "ColorID": "DARK.92"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Foreground"
+      , "ColorState": "Active"
+      , "ColorID": "LIGHT.84"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Foreground"
+      , "ColorState": "Hover"
+      , "ColorID": "LIGHT.99"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Foreground"
+      , "ColorState": "Selected"
+      , "ColorID": "LIGHT.84"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Foreground"
+      , "ColorState": "Disabled"
+      , "ColorID": "DARK.77"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Border"
+      , "ColorState": "Hover"
+      , "ColorID": "DARK.66"
+    }
+    , { 
+      "ItemType": "MenuBar"
+      , "ColorType": "Border"
+      , "ColorState": "Selected"
+      , "ColorID": "DARK.84"
+    }
+    , { 
+      "ItemType": "StatusBar"
+      , "ColorType": "Background"
+      , "ColorState": "Active"
+      , "ColorID": "DARK.92"
+    }
+  ]
+  , "Icons": [ 
+    { 
+      "IconKey": "PRINT"
+      , "FileName": "ico_20_folder.png"
+      , "ReSize": 20
+      , "ReColorID": "LIGHT.84"
+    }
+    , { 
+      "IconKey": "WEBANCESTRYCOM"
+      , "FileName": "ico_32_Ancestry.png"
+      , "ReSize": 20
+      , "ReColorID": null
+    }
+    , { 
+      "IconKey": "WEBFAMILYSEARCHCOM"
+      , "FileName": "ico_48_familysearch.png"
+      , "ReSize": 20
+      , "ReColorID": null
+    }
+    , { 
+      "IconKey": "APP"
+      , "FileName": "ico_48_tree_family_2.png"
+      , "ReSize": 32
+      , "ReColorID": "HIGHLIGHT.1"
+    }
+    , { 
+      "IconKey": "SEARCH"
+      , "FileName": "ico_20_search.png"
+      , "ReSize": 20
+      , "ReColorID": "LIGHT.84"
+    }
+    , { 
+      "IconKey": "X"
+      , "FileName": "ico_20_close.png"
+      , "ReSize": 20
+      , "ReColorID": "LIGHT.84"
+    }
+    , { 
+      "IconKey": "MINIMIZE"
+      , "FileName": "ico_20_win_minimize.png"
+      , "ReSize": 20
+      , "ReColorID": "LIGHT.84"
+    }
+    , { 
+      "IconKey": "MAXIMIZE"
+      , "FileName": "ico_20_win_maximize.png"
+      , "ReSize": 20
+      , "ReColorID": "LIGHT.84"
+    }
+    , { 
+      "IconKey": "DROPDOWN"
+      , "FileName": "ico_20_arrow_drop_down.png"
+      , "ReSize": 20
+      , "ReColorID": "LIGHT.84"
+    }
+  ]
+}

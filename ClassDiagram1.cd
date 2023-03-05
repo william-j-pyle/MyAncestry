@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MyAncestry.jBoxViews">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Field Name="_ActiveView" Hidden="true" />
+      <Field Name="_ActiveViewKey" Hidden="true" />
+      <Field Name="_BorderWidth" Hidden="true" />
+      <Property Name="BorderWidth" Hidden="true" />
+      <Event Name="BorderWidthChanged" Hidden="true" />
+      <Method Name="jBoxView_BackColorChanged" Hidden="true" />
+      <Method Name="jBoxView_BorderWidthChanged" Hidden="true" />
+      <Method Name="jBoxView_ParentChanged" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+      <Field Name="Props" Hidden="true" />
+      <Field Name="Theme" Hidden="true" />
+      <Field Name="Views" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAAAAAgAgYAAAAAAICAABCQBAAhAAAAAAgQBA=</HashCode>
+      <FileName>Source\jControls\jBox\jBoxViews.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAncestry.jBoxView">
+    <Position X="4.75" Y="0.5" Width="4.75" />
+    <Members>
+      <Field Name="_ViewKey" Hidden="true" />
+      <Field Name="BoxKeys" Hidden="true" />
+      <Field Name="Config" Hidden="true" />
+      <Field Name="Containers" Hidden="true" />
+      <Field Name="ContainerVisibility" Hidden="true" />
+      <Method Name="InitSplitter" Hidden="true" />
+      <Method Name="jBoxContainers_ParentChanged" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+      <Method Name="PlacementTypeToKey" Hidden="true" />
+      <Field Name="Props" Hidden="true" />
+      <Field Name="ready" Hidden="true" />
+      <Method Name="RemoveSplitterFocus" Hidden="true" />
+      <Method Name="SetBoxContainerEmpty" Hidden="true" />
+      <Method Name="SetBoxContainerFocus" Hidden="true" />
+      <Method Name="SetBoxContainerVisibility" Hidden="true" />
+      <Field Name="SplitS1" Hidden="true" />
+      <Field Name="SplitS2" Hidden="true" />
+      <Field Name="SplitS3" Hidden="true" />
+      <Field Name="SplitS4" Hidden="true" />
+      <Field Name="SplitS5" Hidden="true" />
+      <Field Name="Theme" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AOAHAAAAAwAgFAAQABBAAACIAAADAAAIkAwAAAJgQCA=</HashCode>
+      <FileName>Source\jControls\jBox\jBoxView.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAncestry.jBoxViewItem">
+    <Position X="5.25" Y="4.25" Width="4.25" />
+    <Members>
+      <Field Name="_HasFocus" Hidden="true" />
+      <Field Name="_key" Hidden="true" />
+      <Field Name="_SearchCriteria" Hidden="true" />
+      <Method Name="jBoxViewItem_ControlAdded" Hidden="true" />
+      <Field Name="Theme" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAEIBEADAAhAAQQAACQgAAAFAAABAAACATEAAEEAAA=</HashCode>
+      <FileName>Source\jControls\jBox\jBoxViewItem.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAncestry.jBoxViewItems">
+    <Position X="0.5" Y="4.25" Width="4.25" />
+    <Members>
+      <Field Name="_SelectedKey" Hidden="true" />
+      <Field Name="_ShowFocus" Hidden="true" />
+      <Field Name="_ViewItemContainerType" Hidden="true" />
+      <Method Name="ApplyFocus" Hidden="true" />
+      <Method Name="BtnCloseClick" Hidden="true" />
+      <Field Name="BtnCloseHeader" Hidden="true" />
+      <Method Name="BtnCloseHeader_Click" Hidden="true" />
+      <Field Name="btnDropDownHeader" Hidden="true" />
+      <Method Name="btnDropDownHeader_Click" Hidden="true" />
+      <Method Name="Container_FocusRecieved" Hidden="true" />
+      <Method Name="Container_GotFocus" Hidden="true" />
+      <Method Name="Container_LostFocus" Hidden="true" />
+      <Method Name="Container_NoItems" Hidden="true" />
+      <Method Name="Container_ParentChanged" Hidden="true" />
+      <Method Name="Container_TextChanged" Hidden="true" />
+      <Method Name="DockBox_SetFocus" Hidden="true" />
+      <Field Name="externalClientControl" Hidden="true" />
+      <Method Name="Init" Hidden="true" />
+      <Method Name="InitDock" Hidden="true" />
+      <Method Name="InitTab" Hidden="true" />
+      <Field Name="items" Hidden="true" />
+      <Field Name="LblHeader" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+      <Field Name="PnlClientArea" Hidden="true" />
+      <Field Name="PnlHeader" Hidden="true" />
+      <Field Name="pnlMainBox" Hidden="true" />
+      <Field Name="pnlSearch" Hidden="true" />
+      <Method Name="pnlSearch_SearchCleared" Hidden="true" />
+      <Method Name="pnlSearch_SearchRequest" Hidden="true" />
+      <Field Name="pnlTabBar" Hidden="true" />
+      <Field Name="pnlToolbar" Hidden="true" />
+      <Method Name="RedirectFocus" Hidden="true" />
+      <Method Name="reDraw" Hidden="true" />
+      <Field Name="selectedTab" Hidden="true" />
+      <Method Name="TabMouseClick" Hidden="true" />
+      <Method Name="TabMouseHover" Hidden="true" />
+      <Field Name="Theme" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QEwAAAAArAABBQAYCEhADAIQsAAAnUEMSBRHBEAAKEA=</HashCode>
+      <FileName>Source\jControls\jBox\jBoxViewItems.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAncestry.jBoxViewItemWeb">
+    <Position X="11" Y="4" Width="3" />
+    <Members>
+      <Field Name="_URL" Hidden="true" />
+      <Field Name="DEF_BOXLOCATION" Hidden="true" />
+      <Method Name="InitControl" Hidden="true" />
+      <Method Name="jBoxViewItemTest_ParentChanged" Hidden="true" />
+      <Method Name="jBoxViewItemWebView3_ItemFocusChanged" Hidden="true" />
+      <Method Name="jBoxViewItemWebViewer_SearchCleared" Hidden="true" />
+      <Method Name="jBoxViewItemWebViewer_SearchCriteriaChanged" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+      <Field Name="web" Hidden="true" />
+      <Method Name="web_FocusReceived" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIQAEAAAAAFAAAAAEAAAAAAACAABAAAACAAAIgAAAA=</HashCode>
+      <FileName>Source\jControls\jBox\jBoxViewItemWeb.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MyAncestry.jBoxPlacementType">
+    <Position X="10.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABABAAQBAAAAACAAACAAAABAgAAAAAACA=</HashCode>
+      <FileName>Source\jControls\jBox\Enumerations\jBoxPlacementType.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MyAncestry.jBoxContainerType">
+    <Position X="12.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source\jControls\jBox\Enumerations\jBoxContainerType.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
