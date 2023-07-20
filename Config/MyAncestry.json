@@ -1,20 +1,19 @@
-{ 
-  "Config": { 
-    "JSControlFile": "D:\\FamilyAncestry\\apps\\MyAncestry\\Project\\Assets\\js\\jWebViewInit.js"
-    , "VirtualHostName": "MyAncestry"
-    , "PathWebRoot": "D:\\FamilyAncestry\\apps\\MyAncestry\\Project\\Assets\\"
-    , "PathIcon": "D:\\FamilyAncestry\\apps\\MyAncestry\\Project\\Assets\\img\\"
-    , "Theme": "1"
-    , "PathGedCom": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\data\\tree.ged"
-    , "PathMediaMovies": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\Movies\\"
-    , "PathMediaStories": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\Stories\\"
-    , "PathMediaImages": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\Images\\"
-    , "PathMediaAudio": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\Audio\\"
-    , "PathMedia": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\media\\"
-    , "PathData": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\data\\"
-    , "PathConfig": "D:\\FamilyAncestry\\apps\\MyAncestry\\FileSystem\\config\\"
-  }
-  , "Views": [ 
+{
+  "Config": {
+    "JSControlFile": "D:\\Geneology\\Apps\\MyAncestry\\Assets\\js\\jWebViewInit.js",
+    "VirtualHostName": "MyAncestry",
+    "PathWebRoot": "D:\\Geneology\\Apps\\MyAncestry\\Assets\\",
+    "PathIcon": "D:\\Geneology\\Apps\\MyAncestry\\Assets\\img\\",
+    "Theme": "1",
+    "PathGedCom": "D:\\Geneology\\Data\\gedcom\\Ancestry-20230711.ged",
+    "PathMediaMovies": "D:\\Geneology\\Apps\\MyAncestry\\FileSystem\\media\\Movies\\",
+    "PathMediaStories": "D:\\Geneology\\Apps\\MyAncestry\\FileSystem\\media\\Stories\\",
+    "PathMediaImages": "D:\\Geneology\\Apps\\MyAncestry\\FileSystem\\media\\Images\\",
+    "PathMediaAudio": "D:\\Geneology\\Apps\\MyAncestry\\FileSystem\\media\\Audio\\",
+    "PathMedia": "D:\\Geneology\\Apps\\MyAncestry\\FileSystem\\media\\",
+    "PathData": "D:\\Geneology\\Apps\\MyAncestry\\FileSystem\\data\\",
+    "PathConfig": "D:\\Geneology\\Apps\\MyAncestry\\FileSystem\\config\\"
+  }, "Views": [ 
     { 
       "Key": "HINTS"
       , "GroupKey": "HINTS"

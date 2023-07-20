@@ -14,12 +14,12 @@ Namespace My
         Public DataMgr As DBData
 
         Private Sub MyApplication_Startup(sender As Object, e As StartupEventArgs) Handles Me.Startup
-            Config = JsonConvert.DeserializeObject(Of jConfig)(New StreamReader("D:\FamilyAncestry\apps\MyAncestry\Project\Config\MyAncestry.json").ReadToEnd)
-            Config.LoadProperties("D:\FamilyAncestry\apps\MyAncestry\FileSystem\config\user.props")
+      Config = JsonConvert.DeserializeObject(Of jConfig)(New StreamReader("D:\Geneology\Apps\MyAncestry\Config\MyAncestry.json").ReadToEnd)
+      Config.loadProperties("D:\Geneology\Apps\MyAncestry\Config\MyAncestry.props")
 
-            DataMgr = New DBData()
-            DataMgr.LoadGedCom("D:\FamilyAncestry\apps\MyAncestry\FileSystem\data\tree.ged")
-        End Sub
+      DataMgr = New DBData()
+      DataMgr.LoadGedCom("D:\Geneology\Data\gedcom\Ancestry-20230711.ged")
+    End Sub
 
         Private Sub MyApplication_Shutdown(sender As Object, e As EventArgs) Handles Me.Shutdown
             Config.Properties.Save()

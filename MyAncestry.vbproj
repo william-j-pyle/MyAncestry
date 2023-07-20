@@ -258,6 +258,13 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="Config\MyAncestry.props" />
     <None Include="Config\MyAncestry.json" />
+    <None Include="Design\Classes.pptx" />
+    <None Include="Design\DataMapping.xlsx" />
+    <None Include="Design\family tree math.xlsx" />
+    <None Include="Design\MyAncestryBookTracking.pptx" />
+    <None Include="Design\Research Sites List.xlsx" />
+    <None Include="Design\TreeTesting.xlsm" />
+    <None Include="Design\UI Design.pptx" />
     <None Include="packages.config" />
     <Compile Include="Source\Geneology\GedCom5\GedCom551.vb" />
     <Compile Include="Source\Geneology\Gedcom\GEDComFile.vb" />
@@ -2578,6 +2585,10 @@
     <Content Include="Assets\task.html" />
     <Content Include="Assets\tasklist.html" />
     <Content Include="Assets\js\jWebViewInit.js" />
+    <Content Include="Design\MyAncestry - Classes.txt" />
+    <Content Include="Design\MyAncestry - Flow.txt" />
+    <Content Include="Design\Property Functions to maybe add back.txt" />
+    <Content Include="Design\SQLite - Sample Code.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="packages\Microsoft.Web.WebView2.1.0.1293.44\build\Microsoft.Web.WebView2.targets" Condition="Exists('packages\Microsoft.Web.WebView2.1.0.1293.44\build\Microsoft.Web.WebView2.targets')" />
